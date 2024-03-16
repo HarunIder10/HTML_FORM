@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>form sayfası</title>
+
+    <style>
+        .formuygulamasi {
+            width: 350px;
+            height: auto;
+            background-color: antiquewhite;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="formuygulamasi">
+        <form>
+            <table>
+                <tr>
+                    <td>adınız : </td>
+                    <td><input type="text" id="ad" name="ad"></td>
+                </tr>
+
+                <tr>
+                    <td>soyadınız :</td>
+                    <td><input type="text" name="soyadi" id=""></td>
+                </tr>
+
+                <tr>
+                    <td>E-mail Adres :</td>
+                    <td><input type="email" name="mail" id="mail"></td>                  
+                </tr>
+
+                <tr>
+                    <td>Kullanıcı Şifresi :</td>
+                    <td><input type="password" name="şifre" id="şifre"></td>
+                </tr>
+
+                <tr>
+                    <td>Cinsiyet :</td>
+                    <td>
+                        ERKEK<input type="radio" name="cinsiyet" id="cinsiyet1">
+                        KIZ<input type="radio" name="cinsiyet" id="cinsiyet2">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Doğum Tarihiniz :</td>
+                    <td><input type="date" name="doğumtarihi" id="doğumtarihi"></td>
+                </tr>
+
+                <tr>
+                    <th colspan="2">Hobiler</th>
+                </tr>
+
+                <tr>
+                    <td>kitap okumak</td>
+                    <td><input type="checkbox" name="kitap" id="kitap"></td>
+                </tr>
+
+                <tr>
+                    <td>spor yapmak</td>
+                    <td><input type="checkbox" name="spor" id="spor"></td>
+                </tr>
+
+                <tr>
+                    <td>müzik dinlemek</td>
+                    <td><input type="checkbox" name="müzik" id="müzik"></td>
+                </tr>
+
+                <tr>
+                    <td>resim seçiniz :</td>
+                    <td><input type="file" name="resim" id="resim"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><textarea name="yorum" id="yorum" cols="40" rows="10" placeholder="mesajınızı giriniz..."></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>okudum onaylıyorum. <input type="radio" name="sözleşme" id="sözleşme"></td>
+                </tr>
+
+                <tr>
+                    <td>okudum onaylamıyorum. <input type="radio" name="sözleşme" id="sözleşme2"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="gönder" id="gönder" style="margin-right: 5px;">
+                        <input type="reset" name="temizle" id="temizle">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
